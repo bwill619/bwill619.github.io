@@ -1,0 +1,191 @@
+html{
+  scroll-behavior: smooth;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+/* index (add mobile device responsiveness) */
+.nameHeader {
+  text-align: center;
+  font-size: 70px;
+}
+.contact {
+  text-align: center;
+  font-size: 30px;
+}
+p {text-align: center;}
+.div1{
+  border: 1px outset rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+.indexBody{
+  padding: 150px 0;
+  text-align: center;
+  background-image: url('https://i.ibb.co/9TqQbVp/space1.jpg');
+  background-size: fill;
+  background-repeat: no-repeat;
+  width: auto;
+  height: auto;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+}
+@keyframes fadeInAnimation{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+.home_button{
+  border-radius: 12px;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border: 2px solid #2b6af1;
+  transition-duration: 0.5s;
+}
+.home_button:hover {
+  background-color: #2b6af1;
+  color: white;
+}
+.about_button{
+  border-radius: 12px;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border: 2px solid #2b6af1;
+  transition-duration: 0.5s;
+}
+.about_button:hover {
+  background-color: #2b6af1;
+  color: white;
+}
+.projects_button{
+  border-radius: 12px;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border: 2px solid #2b6af1;
+  transition-duration: 0.5s;
+}
+.projects_button:hover {
+  background-color: #2b6af1;
+  color: white;
+}
+.resume_button{
+  border-radius: 12px;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border: 2px solid #2b6af1;
+  transition-duration: 0.5s;
+}
+.resume_button:hover {
+  background-color: #2b6af1;
+  color: white;
+}
+
+.linkedin{
+  text-decoration: none;
+  opacity: 1;
+  transition: 0.3s;
+  font-size: large;
+}
+.linkedin:hover{opacity: 1}
+
+.email{
+  text-decoration: none;
+  opacity: 1;
+  transition: 0.3s;
+  font-size: large;
+}
+.email:hover{opacity: 1}
+
+i[class^="icon-"]:before {
+	display: inline-block;
+	text-decoration: none;
+  opacity: 1;
+  transition: 0.3s;
+}
+i[class^="icon-"]:visited {
+	display: inline-block;
+	text-decoration: none;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+
+/* about (add mobile device responsiveness) */
+h2 {
+  text-align: center;
+  color: white;
+}
+p2 {text-align: center;}
+.aboutBody{
+  padding: 150px 0;
+  text-align: center;
+  background-image: url('https://i.ibb.co/9TqQbVp/space1.jpg');
+  background-size: fill;
+  background-repeat: no-repeat;
+  width: auto;
+  height: auto;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+.aboutParagraph{
+  color: white;
+}
+
+.brendon {
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+
+/* projects (add mobile device responsiveness) */
+h2 {text-align: center;}
+p2 {text-align: center;}
+.projectsBody{
+  padding: 150px 0;
+  text-align: center;
+  background-image: url('https://i.ibb.co/9TqQbVp/space1.jpg');
+  background-size: fill;
+  background-repeat: no-repeat;
+  width: auto;
+  height: auto;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.projectsParagraph{
+  color: white;
+}
+
+
+/* all */
+a{
+  color: white;
+}
+a:visited { text-decoration: none; color: white; }
+a:hover { text-decoration: none; color:white; }
+a:focus { text-decoration: none; color:yellow; }
+a:hover, a:active { text-decoration: none; color:blue; }
+
+button:visited { text-decoration: none; color: white; }
+button:hover { text-decoration: none; color:white; }
+button:focus { text-decoration: none; color:yellow; }
+button:hover, button:active { text-decoration: none; color:blue; }
+
+
