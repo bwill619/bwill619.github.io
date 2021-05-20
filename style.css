@@ -1,7 +1,7 @@
 html {
   scroll-behavior: smooth;
   font-family: Arial, Helvetica, sans-serif;
-  }
+}
 
 .center {
   display: block;
@@ -18,7 +18,9 @@ html {
   text-align: center;
   font-size: 30px;
 }
-p {text-align: center;}
+p {
+  text-align: center;
+}
 .div1 {
   border: 1px outset #ccd6f6;
   background-color: #ccd6f6;
@@ -27,7 +29,7 @@ p {text-align: center;}
 .indexBody {
   padding: 150px 0;
   text-align: center;
-  background-image: url('https://i.ibb.co/9TqQbVp/space1.jpg');
+  background-image: url("https://i.ibb.co/9TqQbVp/space1.jpg");
   background-size: fill;
   background-repeat: no-repeat;
   width: auto;
@@ -35,13 +37,12 @@ p {text-align: center;}
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-
 }
 @keyframes fadeInAnimation {
-  0%{
+  0% {
     opacity: 0;
   }
-  100%{
+  100% {
     opacity: 1;
   }
 }
@@ -102,7 +103,9 @@ p {text-align: center;}
   transition: 0.3s;
   font-size: large;
 }
-.linkedin:hover {opacity: 1}
+.linkedin:hover {
+  opacity: 1;
+}
 
 .email {
   text-decoration: none;
@@ -110,28 +113,31 @@ p {text-align: center;}
   transition: 0.3s;
   font-size: large;
 }
-.email:hover {opacity: 1}
+.email:hover {
+  opacity: 1;
+}
 
 i[class^="icon-"]:before {
-	display: inline-block;
-	text-decoration: none;
+  display: inline-block;
+  text-decoration: none;
   opacity: 1;
   transition: 0.3s;
 }
 i[class^="icon-"]:visited {
-	display: inline-block;
-	text-decoration: none;
+  display: inline-block;
+  text-decoration: none;
   opacity: 1;
   transition: 0.3s;
 }
-
 
 /* about (add mobile device responsiveness) */
 h2 {
   text-align: center;
   color: white;
 }
-p2 {text-align: center;}
+p2 {
+  text-align: center;
+}
 .aboutBody {
   padding: 150px 0;
   text-align: center;
@@ -141,19 +147,24 @@ p2 {text-align: center;}
   width: auto;
   height: auto;
 }
-.aboutParagraph{
+.aboutParagraph {
   color: white;
 }
 
 .brendon {
   border-radius: 50%;
   border: 3px solid #ccd6f6;
+  width: 100px;
+  height: 300px;
 }
 
-
 /* projects (add mobile device responsiveness) */
-h2 {text-align: center;}
-p2 {text-align: center;}
+h2 {
+  text-align: center;
+}
+p2 {
+  text-align: center;
+}
 .projectsBody {
   padding: 150px 0;
   text-align: center;
@@ -168,19 +179,54 @@ p2 {text-align: center;}
   color: white;
 }
 
+.projectsList {
+  color: white;
+  text-align: center;
+  width: auto;
+  height: auto;
+}
+
+.projectsPicture {
+  width: 1000px;
+  height: 550px;
+}
 
 /* all */
-a{
+a {
   color: #ccd6f6;
 }
-a:visited { text-decoration: none; color: #ccd6f6; }
-a:hover { text-decoration: none; color:#ccd6f6; }
-a:focus { text-decoration: none; color:yellow; }
-a:hover, a:active { text-decoration: none; color: #ccd6f6; }
+a:visited {
+  text-decoration: none;
+  color: #ccd6f6;
+}
+a:hover {
+  text-decoration: none;
+  color: #ccd6f6;
+}
+a:focus {
+  text-decoration: none;
+  color: yellow;
+}
+a:hover,
+a:active {
+  text-decoration: none;
+  color: #ccd6f6;
+}
 
-button:visited { text-decoration: none; color: #ccd6f6; }
-button:hover { text-decoration: none; color:#ccd6f6; }
-button:focus { text-decoration: none; color:yellow; }
-button:hover, button:active { text-decoration: none; color:#ccd6f6; }
-
-
+button:visited {
+  text-decoration: none;
+  color: #ccd6f6;
+}
+button:hover {
+  text-decoration: none;
+  color: #ccd6f6;
+}
+button:focus {
+  text-decoration: none;
+  color: yellow;
+}
+button:hover,
+button:active {
+  text-decoration: none;
+  color: #ccd6f6;
+}
