@@ -11,3 +11,4 @@ function projectsClick() {
 function resumeClick() {
   window.open("brendonresume.pdf");
 }
+
