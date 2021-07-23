@@ -187,8 +187,9 @@ p2 {
 }
 
 .projectsPicture {
-  width: auto;
-  height: auto;
+  width: 600px;
+  height: 400px;
+  text-align: left;
 }
 
 /* all */
