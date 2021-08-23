@@ -194,6 +194,13 @@ p2 {
   max-width: 100%;
 }
 
+.projectsPicture2 {
+  width: 600px;
+  height: auto;
+  text-align: left;
+  max-width: 100%;
+}
+
 /* all */
 a {
   color: #ccd6f6;
