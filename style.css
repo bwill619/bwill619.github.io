@@ -9,7 +9,7 @@ html {
   margin-right: auto;
   width: 50%;
 }
-/* index (add mobile device responsiveness) */
+/* index */
 .nameHeader {
   text-align: center;
   font-size: 70px;
@@ -131,7 +131,7 @@ i[class^="icon-"]:visited {
   transition: 0.3s;
 }
 
-/* about (add mobile device responsiveness) */
+/* about */
 h2 {
   text-align: center;
   color: white;
@@ -195,7 +195,7 @@ p2 {
 }
 
 .projectsPicture2 {
-  width: 600px;
+  width: 500px;
   height: auto;
   text-align: left;
   max-width: 100%;
