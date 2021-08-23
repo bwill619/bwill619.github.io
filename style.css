@@ -159,7 +159,7 @@ p2 {
   height: 300px;
 }
 
-/* projects (add mobile device responsiveness) */
+/* projects */
 h2 {
   text-align: center;
 }
@@ -195,6 +195,13 @@ p2 {
 }
 
 .projectsPicture2 {
+  width: 600px;
+  height: auto;
+  text-align: left;
+  max-width: 100%;
+}
+
+.projectsPicture3 {
   width: 600px;
   height: auto;
   text-align: left;
