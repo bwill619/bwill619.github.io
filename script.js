@@ -9,5 +9,5 @@ function projectsClick() {
   location.href = "projects.html";
 }
 function resumeClick() {
-  window.open("brendonresume.pdf");
+  window.open("brendon_williams_resume.pdf");
 }
